@@ -1,0 +1,489 @@
+html {
+    background-image: url(../imagenes/fondo.jpg);
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+    width: 90%;
+    margin: 0 auto;
+    }
+
+header{
+    width: auto;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    padding: 40px;
+    margin-top:20px;
+}
+
+.menu__nav {
+    width: auto;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.menu__nav li {
+    display: inline-block;
+    column-gap: 20px;
+}
+
+.menu__nav li a {
+    color: #ff6bb5;
+    font-weight: 700;
+    text-decoration: none;
+    column-gap: 20px;
+}
+
+.menu__nav li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+section.header__presentacion{
+    text-align: center;
+}
+
+.header__presentacion{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly ;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__foto{
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid #ffa9d4;
+}
+
+.presentacion__texto{
+    width: 55%;
+}
+
+.header__enlaces {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.header__enlaces li a{
+    color: #ff6bb5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__enlaces li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.seccion__sobreMi{
+    display: flex;
+    }
+
+.sobreMi{
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+
+.skills {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor__skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mis__skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.mis__skills img{
+    width: 80px;
+}
+
+.hobbies {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor__hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mis__hobbies{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+.mis__hobbies img{
+    width: 80px;
+}
+
+
+.seccion__estudios{
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.formacion__academica {
+    display: flex;
+    height: 200px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor__estudios{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.mis__estudios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+.mis__estudios img {
+    width: 100px;
+}
+
+.freecodecamp img {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.yoprogramo img {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.aluraone img{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.mis__estudios p{
+    font-size: small;
+}
+
+.mis__proyectos h2{
+    margin: 0 0 0 10%;
+    padding: 25px 0;
+}
+
+.encriptador__texto{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.encriptador__texto img{
+    width: 470px;
+    border: 8px solid #ffffff;
+}
+
+.juego__ahorcado{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.juego__ahorcado img{
+    width: 470px;
+    border: 8px solid #ffffff;
+}
+
+.botones{
+    background-color: #ff6bb5;
+    border: none;
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 100px;
+    height: 35px;
+}
+
+.botones a{
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none; 
+}
+
+.botones:hover{
+    background-color: #f72c92;
+    cursor: pointer;
+}
+
+.contacto h2{
+    margin: 0 0 0 10%;
+    padding: 25px 0;
+}
+
+.formulario__contacto{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.formulario{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.formulario label{
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.formulario input{
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.formulario textarea{
+    background-color: white;
+    border: none;
+    height: 60px;
+    padding: 10px;
+}
+
+.formulario__contacto button{
+    align-self: center;
+    background-color: #ff6bb5;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 20px;
+    width: 100px;
+    height: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.formulario__contacto button:hover{
+    background-color: #f72c92;
+    cursor: pointer;
+}
+
+footer p{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.input__error{
+    color: #ff5356;
+    visibility: hidden ;
+    font-size: small;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 769px) {
+    html{
+        width: auto;
+    }
+
+    header {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__nav {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 10px;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .menu__nav li a{
+        display: inline;
+        justify-content: center;
+        width: auto;
+    }
+
+    nav {
+        flex-direction: row;
+        display: inline;
+        width: auto;
+    }
+
+    nav.logo {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    section.header__presentacion{
+        display: block;
+        flex-direction: column;
+        width: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header__presentacion {
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        text-align: center;
+    }
+
+    .sobreMi{
+        text-align: center;
+    }
+
+    .header__presentacion{
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .presentacion__texto{
+        width: auto;
+    }
+    
+    .seccion__skills {
+        padding-top: 50px;
+        padding-bottom: 80px;
+        width: auto;
+        justify-content: center;;
+    }
+
+    div.contenedor__skills{
+        justify-content: end;
+    }
+    
+    .contenedor__skills {
+        flex-wrap: wrap;
+        width: auto;
+        grid-column: 2;
+        justify-content: center;
+    }
+
+    .mis__skills {
+        margin-bottom: 30px;
+        margin-right: 40px;
+        width: auto;
+        grid-column: 2;
+        justify-content: space-evenly;
+    }
+
+    .seccion__hobbies {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: auto;
+    }
+
+    .contenedor__hobbies {
+        flex-wrap: wrap;
+        width: auto;
+        grid-column: 2;
+    }
+
+    div.contenedor__hobbies{
+        justify-content: end;
+    }
+
+    .mis__hobbies {
+        margin-bottom: 30px;
+        margin-right: 40px;
+        width: auto;
+        grid-column: 2;
+        justify-content: space-evenly;
+    }
+    
+
+    section.mis__proyectos{
+        width: auto;
+        justify-content: center;
+    }
+    
+    .mis__proyectos{
+        width: auto;
+        justify-content: center;
+        display: inline-grid;
+        padding: 20px;
+    }
+
+    .encriptador__texto{
+        flex-direction: column; 
+        width: auto;
+    }
+    
+    .juego__ahorcado{
+        flex-direction: column;
+        width: auto;
+    }
+ 
+    .encriptador__texto img{
+        width: 80%;
+        border: 8px solid #ffffff;
+    }
+
+    .juego__ahorcado img{
+        width: 80%;
+        border: 8px solid #ffffff;
+    }
+    
+    .formulario{
+    width: auto;
+    margin-bottom: 10px;
+    }
+    
+  }
